@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+  url_shortener:
+    build: .
+    image: url_shortener
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:latest
+    volumes:
+      - /home/vano/url_shortener_data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo-data:

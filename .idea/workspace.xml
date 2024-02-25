@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1a2ada-d67b-4b23-afeb-a33e0fc4f252" name="Changes" comment="initial" />
+    <list default="true" id="2f1a2ada-d67b-4b23-afeb-a33e0fc4f252" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/application.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,19 +19,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file:///snap/go/10489" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ivzond"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ivzond&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,9 +50,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cpcLWZhMA8nW3FQEDfANv3e2ch" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,12 +62,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Docker.fintech_app.app: Compose Deployment.executor": "Run",
     "Docker.fintech_app: Compose Deployment.executor": "Run",
     "Go Test.Test in url_shortener_with_mongo/app (1).executor": "Run",
     "Go Test.Test in url_shortener_with_mongo/app (2).executor": "Run",
     "Go Test.Test in url_shortener_with_mongo/app.executor": "Run",
-    "Go Test.TestServiceSuite in url_shortener_with_mongo/app.executor": "Debug",
+    "Go Test.TestServiceSuite in url_shortener_with_mongo/app.executor": "Run",
     "Go Test.go test url_shortener_with_mongo/app.executor": "Run",
     "Go Test.service_test.go.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -63,7 +76,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/home/vano/programming/GoProjects/fintech_app",
     "node.js.detected.package.eslint": "true",
@@ -71,18 +84,17 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Test.go test url_shortener_with_mongo/app">
-    <configuration name="Test in url_shortener_with_mongo/app (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestServiceSuite in url_shortener_with_mongo/app">
+    <configuration name="TestServiceSuite in url_shortener_with_mongo/app" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="url_shortener_with_mongo" />
       <working_directory value="$PROJECT_DIR$/app" />
-      <parameters value=" -testify.m ^Test$" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="url_shortener_with_mongo/app" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestServiceSuite\E$/^\QTest\E$/^\QShorten\E$" />
+      <pattern value="^\QTestServiceSuite\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test url_shortener_with_mongo/app" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -107,7 +119,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="fintech_app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -133,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test url_shortener_with_mongo/app" />
+        <item itemvalue="Go Test.TestServiceSuite in url_shortener_with_mongo/app" />
         <item itemvalue="Go Test.service_test.go" />
+        <item itemvalue="Go Test.go test url_shortener_with_mongo/app" />
         <item itemvalue="Docker.fintech_app: Compose Deployment" />
         <item itemvalue="Docker.fintech_app.app: Compose Deployment" />
-        <item itemvalue="Go Test.Test in url_shortener_with_mongo/app (2)" />
       </list>
     </recent_temporary>
   </component>
