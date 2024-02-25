@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f1a2ada-d67b-4b23-afeb-a33e0fc4f252" name="Changes" comment="initial" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///snap/go/10489" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ivzond"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d9358005-9f3f-47b1-873f-49b6de85178b" />
+        <option name="url" value="git@github.com:Ivzond/url_shortener_with_mongo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2cpcLWZhMA8nW3FQEDfANv3e2ch" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Docker.fintech_app.app: Compose Deployment.executor": "Run",
+    "Docker.fintech_app: Compose Deployment.executor": "Run",
+    "Go Test.Test in url_shortener_with_mongo/app (1).executor": "Run",
+    "Go Test.Test in url_shortener_with_mongo/app (2).executor": "Run",
+    "Go Test.Test in url_shortener_with_mongo/app.executor": "Run",
+    "Go Test.TestServiceSuite in url_shortener_with_mongo/app.executor": "Debug",
+    "Go Test.go test url_shortener_with_mongo/app.executor": "Run",
+    "Go Test.service_test.go.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/vano/programming/GoProjects/fintech_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager" selected="Go Test.go test url_shortener_with_mongo/app">
+    <configuration name="Test in url_shortener_with_mongo/app (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="url_shortener_with_mongo" />
+      <working_directory value="$PROJECT_DIR$/app" />
+      <parameters value=" -testify.m ^Test$" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="url_shortener_with_mongo/app" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestServiceSuite\E$/^\QTest\E$/^\QShorten\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test url_shortener_with_mongo/app" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="url_shortener_with_mongo" />
+      <working_directory value="$PROJECT_DIR$/app" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="url_shortener_with_mongo/app" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="service_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="url_shortener_with_mongo" />
+      <working_directory value="$PROJECT_DIR$/app" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/app/service_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fintech_app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="../fintech_app/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="fintech_app.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="../fintech_app/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.go test url_shortener_with_mongo/app" />
+        <item itemvalue="Go Test.service_test.go" />
+        <item itemvalue="Docker.fintech_app: Compose Deployment" />
+        <item itemvalue="Docker.fintech_app.app: Compose Deployment" />
+        <item itemvalue="Go Test.Test in url_shortener_with_mongo/app (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-2946fb9b3188-155fe4b6e3a0-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.14475.38" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
