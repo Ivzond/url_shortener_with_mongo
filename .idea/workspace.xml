@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1a2ada-d67b-4b23-afeb-a33e0fc4f252" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="2f1a2ada-d67b-4b23-afeb-a33e0fc4f252" name="Changes" comment="adding docker">
+      <change afterPath="$PROJECT_DIR$/client/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
         <option value="Go File" />
         <option value="HTML File" />
         <option value="Dockerfile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,7 +46,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="d9358005-9f3f-47b1-873f-49b6de85178b" />
-        <option name="url" value="git@github.com:Ivzond/url_shortener_with_mongo.git" />
+        <option name="url" value="https://github.com/Ivzond/url_shortener_with_mongo.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -79,6 +82,7 @@
     "git-widget-placeholder": "dev",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/home/vano/programming/GoProjects/fintech_app",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -213,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="adding docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding docker" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

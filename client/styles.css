@@ -1,0 +1,26 @@
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header {
+    font-family: "Playfair D", serif;
+    padding: 15px;
+    background-color: #dcdbd7;
+    color: black;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    max-height: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(58, 58, 58, 0.25);
+}

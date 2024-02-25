@@ -11,7 +11,7 @@ import (
 )
 
 func Run(ctx context.Context) error {
-	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb://127.0.0.1:27017"))
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb://mongo:27017"))
 	if err != nil {
 		return err
 	}
@@ -29,7 +29,7 @@ func Run(ctx context.Context) error {
 	service := NewService(shortUrlDAO)
 	httpHandler := NewHandler(service)
 	fmt.Println("App is working on port :8000")
-	return http.ListenAndServe("localhost:8000", initEndpoints(httpHandler))
+	return http.ListenAndServe(":8000", initEndpoints(httpHandler))
 }
 
 func initEndpoints(h *Handler) *web.Router {

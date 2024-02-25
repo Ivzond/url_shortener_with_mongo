@@ -1,20 +1,19 @@
-FROM golang:1.21.6 AS builder
-LABEL authors="vano"
+FROM golang:1.21.6-alpine AS build
 
 WORKDIR /app
 
 COPY go.mod go.sum ./
+
 RUN go mod download
 
-COPY . ./
-
-RUN CGO_ENABLED=0 GOOS=linux go build -o url_shortener
+COPY . .
+RUN go build -o url_shortener
 
 FROM alpine:latest
 
-WORKDIR /app
+ENV MONGO_URI="mongodb://mongo:27017"
 
-COPY --from=builder /app/url_shortener .
+COPY --from=build /app/url_shortener .
 
 EXPOSE 8000
 
