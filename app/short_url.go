@@ -3,7 +3,7 @@ package app
 import "time"
 
 type ShortURL struct {
-	ID       string
-	URL      string
-	ExpireAt time.Time
+	ID       string     `bson:"_id"`
+	URL      string     `bson:"url"`
+	ExpireAt *time.Time `bson:"expireAt,omitempty"`
 }
